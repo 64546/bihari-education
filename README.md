@@ -10,7 +10,11 @@
     <h1>EduPortal</h1>
     <nav>
       <a href="index.html">Home</a>
-      <a href="notes.html">Notes</a>
+      <a href="notes.html">Notes</a><h2>Upload Presentation</h2>
+<form action="upload.php" method="POST" enctype="multipart/form-data">
+  <input type="file" name="file" accept=".pdf,.ppt,.pptx" required>
+  <button type="submit">Upload</button>
+</form>
       <a href="quiz.html">Quiz</a>
       <a href="test.html">Test</a>
       <a href="doubt.html">Doubt</a>
