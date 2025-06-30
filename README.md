@@ -26,4 +26,8 @@
     <p>© 2025 EduPortal. All rights reserved.</p>
   </footer>
 </body>
-</html>
+</html><h2>Upload Presentation</h2>
+<form action="upload.php" method="POST" enctype="multipart/form-data">
+  <input type="file" name="file" accept=".pdf,.ppt,.pptx" required>
+  <button type="submit">Upload</button>
+</form>
